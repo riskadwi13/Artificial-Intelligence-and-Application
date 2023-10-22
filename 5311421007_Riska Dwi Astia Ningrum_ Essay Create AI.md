@@ -16,6 +16,7 @@ Implementasi Artificial Intelligence menggunakan metode Convolutional Neural Net
 
 - Chatterjee, H. S. (2019). A Basic Introduction to Convolutional Neural Network.
 - Lubis, M. S. (2021). IMPLEMENTASI ARTIFICIAL INTELLIGENCE PADA SYSTEM MANUFAKTUR TERPADU. SEMNASTEK UISU , ISBN : 978-623-7297-39-0.
+- Pakpahan, R. (2021). ANALISA PENGARUH IMPLEMENTASI ARTIFICIAL INTELLIGENCE DALAM KEHIDUPAN MANUSIA. Journal of Information System, Informatics and Computing, Vol.5 No.2.
 - Whidhiasih, R. N., & Ekawati, I. (2019). IDENTIFIKASI JENIS PENYAKIT DAUN PADI MENGGUNAKAN ADAPTIF NEURO FUZZY INFERENE SYSTEM (ANFIS) BERDASARKAN TEKSTUR. FT Seminar Nasional Sinergi.
 - Wu, J. (2017). Introduction to Convolutional Neural Networks. Nanjing University, China: National Key Lab for Novel Software Technology.
 - Zulkifli. (2021). SISTEM PENDETKSI PENYAKIT TANAMAN PADI BERBASIS ARTIFICIAL INTELLIGENCE. JURNAL TIKA, Volume 6, No 3, Pages 260-269.
