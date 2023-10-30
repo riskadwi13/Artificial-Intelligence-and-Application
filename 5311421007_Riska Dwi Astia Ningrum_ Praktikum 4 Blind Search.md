@@ -72,6 +72,7 @@ b.	Kemudian pada Metode main, memasukkan nilai node dengan tipe data string seba
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/12-4.jpg)
 
 c.	Selanjutnya pada Metode addEdge dan bfs, memasukkan logika pemrosesan data untuk tipe data String sebagai berikut.
+
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/13-4.jpg)
 
 d.	Kemudian Run untuk mendapatkan hasil.
