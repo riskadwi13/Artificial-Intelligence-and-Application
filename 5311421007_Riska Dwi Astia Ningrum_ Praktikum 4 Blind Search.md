@@ -20,7 +20,7 @@ c.	Selanjutnya, node 5 akan mengeksplorasi node 8 dan node 7.
 d.	Proses ini akan terus berlanjut sampai semua node yang terhubung dengan node awal telah diperiksa. 
 Oleh karena itu, node-node 8, 6, dan 7 akan ditemukan dan diproses dengan mengikuti aturan BFS.
 
-- ###### Hasil Program
+- ##### Hasil Program
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/1-4.jpeg)
 
 Berdasarkan hasil di atas, BFS dimulai dari simpul (node) ke-3 (n3). Mari kita lihat langkah-langkahnya untuk mencapai node ke-8, 6, dan 7:
@@ -38,7 +38,7 @@ Berdasarkan hasil di atas, BFS dimulai dari simpul (node) ke-3 (n3). Mari kita l
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/2-4.jpeg)
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/3-4.jpeg)
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/4-4..jpg)
-- ###### Hasil Program
+- ##### Hasil Program
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/5-4.jpg)
 - Hasil tersebut mengkonfirmasi kesesuaian hasil tree yang dihasilkan oleh program dengan gambar 4.5. 
 a.	Dalam mencari node 5, pertama-tama algoritma BFS memulai dengan langkah memasukkan node 1 ke dalam antrian. 
@@ -63,15 +63,18 @@ Dengan demikian, pada akhir proses BFS, node 9 akan ditemukan dan diproses sesua
 
 4.	Membuat tree seperti pada gambar 4.7 yang akan dilakukan beberapa perubahan pada kode program.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/10-4.jpg)
+
 a.	Pada kelas Node, untuk dapat menerima huruf maka harus mengganti tipe data variabel ’data’ dari yang awalnya ’int’ menjadi ’String’.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/11-4.jpg)
 
 b.	Kemudian pada Metode main, memasukkan nilai node dengan tipe data string sebagai berikut.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/12-4.jpg)
+
 c.	Selanjutnya pada Metode addEdge dan bfs, memasukkan logika pemrosesan data untuk tipe data String sebagai berikut.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/13-4.jpg)
+
 d.	Kemudian Run untuk mendapatkan hasil.
-###### Hasil Program
+##### Hasil Program
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/14-4.jpg)
 Hasil tersebut sudah menunjukkan bahwa hasil tree yg diperoleh dari program sudah sesuai dengan gambar 4.7. 
 -	Dalam menemukan node 3 (C) algoritma BFS memulainya dengan memasukkan node 6 (F) ke dalam antrian. 
