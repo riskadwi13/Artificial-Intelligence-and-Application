@@ -34,6 +34,7 @@ Berdasarkan hasil di atas, BFS dimulai dari simpul (node) ke-3 (n3). Mari kita l
 -	Node 8 (d=3): n6 juga memiliki tetangga n8, yang belum diwarnai, jadi BFS melanjutkan ke n8 dengan jarak 3.
 
 
+
 2.	Membuat tree seperti pada gambar 4.5 dengan mengubah method static void main, seperti berikut ini.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/2-4.jpeg)
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/3-4.jpeg)
@@ -48,6 +49,7 @@ d.	Setelah node 5 ditemukan, proses akan terus berlanjut hingga semua node yang 
 Oleh karena itu, node 5 akan ditemukan dan diproses sesuai dengan ketentuan algoritma BFS.
 
 
+
 3. Membuat tree seperti pada gambar 4.6 dengan mengubah method static void main, seperti berikut ini.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/6-4.jpg)
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/7-4.jpg)
@@ -60,6 +62,7 @@ b.	Selanjutnya, node 1 akan memeriksa node 2, node 3, dan node 4 yang terhubung 
 c.	Kemudian, node 4 akan memeriksa node yang memiliki tingkat kedalaman 2 dimulai dari memeriksa node 5, node 6, node 7, dan node 8. 
 d.	Dilanjutkan node 8 yang akan memeriksa node 9, dimana setelah menemukan node 9 maka proses akan terus berlanjut untuk memeriksa node 10, node 11, dan node 12 sampai semua node yang terhubung dengan node awal telah diperiksa. 
 Dengan demikian, pada akhir proses BFS, node 9 akan ditemukan dan diproses sesuai dengan aturan algoritma BFS.
+
 
 4.	Membuat tree seperti pada gambar 4.7 yang akan dilakukan beberapa perubahan pada kode program.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/10-4.jpg)
