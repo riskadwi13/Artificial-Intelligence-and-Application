@@ -279,6 +279,7 @@ Solusi 4:
 
 5.	 Mengubah initial dan goal state dari program dan class-class di atas sehingga bentuk initial dan goal statenya Gambar 5.11.
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/8-5.png)
+
 Mengubah Initial State dan Goal State pada kode program
 int ex[] = {D, B, E, A, F, G, H, C, 0}; // initial state 
 int state[] = {A, H, G, B, 0, F, C, D, E}; // goal state
