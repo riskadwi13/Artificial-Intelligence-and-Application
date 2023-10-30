@@ -16,18 +16,18 @@
 
 #### Penyelesaian
 1.	Mempelajari class EightPuzzleSearch, EightPuzzleSpace, dan Node
-###### Kelas EightPuzzleSearch:
+##### Kelas EightPuzzleSearch:
 - Kelas EightPuzzleSearch bertanggung jawab untuk melakukan pencarian solusi untuk masalah 8-puzzle.
 - Kelas ini bergantung pada kelas EightPuzzleSpace untuk mendapatkan informasi tentang ruang pencarian dan menggunakan kelas Node untuk mewakili simpul dalam pencarian
 - Vektor `open` digunakan untuk menyimpan simpul-simpul yang perlu dieksplorasi, dan vektor `closed` menyimpan simpul-simpul yang telah dieksplorasi.
 - Kelas ini memiliki dua fungsi heuristik, yaitu `h1Cost()` dan `h2Cost()`, untuk menghitung biaya simpul berdasarkan heuristik yang berbeda.
-- ###### Metode
+- ##### Metode
 - Metode `hCost(Node node)` digunakan untuk memilih heuristik yang akan digunakan (h1 atau h2).
 - Metode `getBestNode(Vector nodes)` mengembalikan simpul dengan biaya terendah dari vektor simpul yang diberikan.
 - Metode `getPreviousCost(Node node)` mengembalikan biaya simpul jika simpul tersebut ada dalam daftar `open` atau `closed`
 - Metode `printPath(Vector path)` mencetak jalur dari akar ke tujuan.
 - Metode `run()` adalah metode utama yang menjalankan algoritma pencarian.
-###### Kelas EightPuzzleSpace:
+##### Kelas EightPuzzleSpace:
 - Kelas ini mendefinisikan keadaan awal dan tujuan dalam masalah 8-puzzle, serta menghasilkan simpul-simpul penerus.
 - EightPuzzleSpace Class berperan sebagai wadah yang menangani operasi yang
 berhubungan dengan ruang pencarian untuk masalah puzzle 8 angka. Kelas ini 
@@ -36,12 +36,12 @@ menyediakan metode untuk mendapatkan simpul awal (getRoot), mengambil tujuan
 (getSuccessors). 
 - Tugas utama kelas ini adalah mengelola konfigurasi awal dan tujuan 
 dari puzzle 8 angka serta menentukan langkah-langkah yang dapat diambil dari suatu keadaan puzzle
-- ###### Metode
+- ##### Metode
 - Metode `getRoot()` mengembalikan keadaan awal sebagai simpul.
 - Metode `getGoal()` mengembalikan keadaan tujuan sebagai simpul.
 - Metode `getSuccessors(Node parent)` menghasilkan simpul-simpul penerus berdasarkan perpindahan ubin kosong.
 - Metode `transformState()` digunakan untuk membuat simpul baru dengan menukar dua ubin dalam keadaan.
-###### Kelas Node:
+##### Kelas Node:
 - Kelas Node merepresentasikan sebuah simpul atau keadaan dalam ruang pencarian, khususnya dalam konteks penyelesaian masalah 8-puzzle.
 - Setiap simpul memiliki atribut state, yang merupakan array integer dengan panjang 9, yang menggambarkan keadaan dari puzzle 8 angka.
 - Kelas ini juga memiliki metode untuk mengubah simpul menjadi bentuk string, memeriksa kesetaraan, dan mengambil jalur dari simpul ke akar.
@@ -50,7 +50,7 @@ dari puzzle 8 angka serta menentukan langkah-langkah yang dapat diambil dari sua
 - Bidang `parent` adalah referensi ke simpul induk dalam pohon pencarian.
 - Bidang `successors` adalah vektor yang berisi simpul-simpul anak.
 
-- ###### Metode:
+- ##### Metode:
 - Konstruktor `Node(int s[], Node parent)` menginisialisasi sebuah simpul dengan keadaan tertentu dan simpul induk.
 - Metode `toString()` mengembalikan representasi string dari keadaan simpul.
 - Metode `equals(Object node)` membandingkan dua simpul untuk memeriksa apakah mereka memiliki keadaan yang sama.
@@ -58,7 +58,7 @@ dari puzzle 8 angka serta menentukan langkah-langkah yang dapat diambil dari sua
 - Metode `getPath()` mengembalikan jalur dalam vektor baru.
 
 Kode dalam class-class tersebut mengimplementasikan algoritma heuristic search untuk mencari solusi dalam masalah 8-puzzle dengan mengeksplorasi kemungkinan keadaan, mengevaluasi biaya berdasarkan heuristik, dan memilih simpul-simpul yang paling menjanjikan untuk dieksplorasi lebih lanjut. Pencarian berlanjut sampai solusi ditemukan atau semua kemungkinan telah dieksplorasi.
-- ###### Hasil Program
+- ##### Hasil Program
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/1-5.png)
 
 -	Keadaan Awal 
@@ -88,7 +88,7 @@ Dengan demikian, masalah 8-puzzle telah terselesaikandari keadaan awal ke keadaa
 
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/2-5.png)
 
-- ###### Hasil Program
+- ##### Hasil Program
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/3-5.png)
 
 - Keadaan Awal (Initial State):
@@ -167,11 +167,11 @@ Dengan demikian, masalah 8-puzzle telah terselesaikandari keadaan awal ke keadaa
 1 2 3
 4 0 5
 6 7 8
-###### Analisa perbandingan dengan solusi poin 1
-###### Jumlah Langkah:
+##### Analisa perbandingan dengan solusi poin 1
+##### Jumlah Langkah:
 -	Solusi pada poin 1: Dalam solusi pertama, dibutuhkan 5 langkah untuk mencapai keadaan tujuan.
 -	Solusi pada poin 2: Dalam solusi kedua, dibutuhkan 18 langkah untuk mencapai keadaan tujuan.
-###### Kompleksitas:
+##### Kompleksitas:
 -	Solusi pada poin 1: Solusi pertama adalah solusi yang lebih sederhana dan efisien, karena memerlukan lebih sedikit langkah.
 -	Solusi pada poin 2: Solusi kedua lebih kompleks dan memerlukan lebih banyak langkah untuk mencapai tujuan. Ini karena keadaan awal yang berbeda mengharuskan pencarian jalur yang lebih panjang.
 
@@ -180,7 +180,7 @@ Dengan demikian, kedua solusi berhasil mencapai keadaan tujuan, mereka memiliki 
 3.	Mengubah initial dan goal state dari program di atas sehingga bentuk initial dan goal statenya Gambar 5.9
 
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/4-5.png)
-- ###### Hasil Program
+- ##### Hasil Program
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/5-5.png)
 
 - Keadaan Awal (Initial State)
@@ -207,7 +207,7 @@ Penggeseran setiap langkah dalam solusi ini adalah sebagai berikut:
 - Ubin 0 digeser ke atas lagi ke posisi (1, 2).
 - Terakhir, ubin 0 digeser ke kanan ke posisi (1, 3), sehingga mencapai tujuan akhir.
 
-###### Analisa Perbandingan dengan Solusi 1 dan 2
+##### Analisa Perbandingan dengan Solusi 1 dan 2
 Solusi 1:
 -	Solusi pertama adalah solusi yang paling sederhana dan hanya memerlukan 18 langkah untuk mencapai tujuan.
 -	Proses penyelesaian berlangsung sangat cepat, dengan total waktu eksekusi sekitar 1 detik.
@@ -217,13 +217,13 @@ Solusi 2:
 Solusi 3:
 -	Solusi ketiga adalah yang paling kompleks dengan 38 langkah untuk mencapai tujuan.
 -	Waktu eksekusi yang jauh lebih lama dibandingkan dengan solusi sebelumnya, dengan total waktu sekitar 52 menit.
-###### Analisa:
+##### Analisa:
 Solusi pertama dan solusi kedua adalah solusi yang efisien dan relatif sederhana. Kedua solusi memiliki jumlah langkah yang sama dan dapat mencapai tujuan dengan cepat. Solusi ketiga, meskipun mencapai tujuan, memerlukan lebih banyak langkah dan waktu yang signifikan untuk diselesaikan. Keadaan awal dan tujuan yang berbeda mungkin mempengaruhi kompleksitas puzzle.
 
 4.	Mengubah initial dan goal state dari program di atas sehingga bentuk initial dan goal statenya Gambar 5.10. Kemudian tentukan langkah-langkah mana saja sehingga puzzlenya mencapai goal state.
 
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/6-5.png)
-- ###### Hasil Program
+- ##### Hasil Program
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/7-5.png)
 
 Penggeseran setiap langkah dalam solusi ini adalah sebagai berikut:
@@ -244,7 +244,7 @@ Penggeseran setiap langkah dalam solusi ini adalah sebagai berikut:
 - Ubin 0 digeser ke kanan ke posisi (1, 3).\
 - Terakhir, ubin 0 digeser ke kanan lagi ke posisi (2, 3) sehingga mencapai tujuan akhir yang merupakan urutan yang sesuai.
 
-###### Analisa Perbandingan dengan Solusi 1, 2, dan 3
+##### Analisa Perbandingan dengan Solusi 1, 2, dan 3
 Dalam semua solusi yang diberikan, tujuannya adalah mencapai keadaan tujuan (goal state) dari keadaan awal (root state) dalam beberapa langkah. Mari kita bandingkan keempat solusi tersebut:
 Solusi 1:
 •	Root: 3 1 2 4 7 5 6 8 0 = keadaan awal
@@ -270,7 +270,7 @@ Solusi 4:
 •	Total waktu: 0 detik
 •	Total langkah: 16
 
-###### Analisa :
+##### Analisa :
 -	Solusi 1 dan 4 mencapai tujuan dengan jumlah langkah yang lebih sedikit dan dalam waktu yang sangat singkat (kurang dari 1 detik).
 -	Solusi 2 dan 3 memerlukan lebih banyak langkah dan waktu yang signifikan untuk mencapai tujuan.
 -	Solusi 2 adalah yang terpanjang dalam hal jumlah langkah.
