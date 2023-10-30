@@ -65,6 +65,7 @@ Dengan demikian, pada akhir proses BFS, node 9 akan ditemukan dan diproses sesua
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/10-4.jpg)
 
 a.	Pada kelas Node, untuk dapat menerima huruf maka harus mengganti tipe data variabel ’data’ dari yang awalnya ’int’ menjadi ’String’.
+
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/11-4.jpg)
 
 b.	Kemudian pada Metode main, memasukkan nilai node dengan tipe data string sebagai berikut.
