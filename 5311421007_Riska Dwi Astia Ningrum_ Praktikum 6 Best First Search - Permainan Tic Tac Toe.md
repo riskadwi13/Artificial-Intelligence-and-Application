@@ -7,7 +7,7 @@
 
 
 #### Tugas
-Tuliskan semua Java Code diatas, kemudian pelajari code nya, dan ubahkan beberapa bagian untuk melihat perubahannya
+Tuliskan semua Java Code, kemudian pelajari code nya, dan ubahkan beberapa bagian untuk melihat perubahannya
 
 #### Penyelesaian
 Pada praktikum 6 ini memperlihatkan bagaimana membuat sebuah permainan tic tac toe.  Ketika pemain pertama menekan salah satu ubin, maka ubin tersebut akan diberikan tanda silang. Pemain kedua harus menghalangi pemain pertama untuk membuat tanda silang berjajaran baik secara vertikal, horizontal, atau diagonal. Permainan ini akan berakhir (goal state) ketika salah seorang pemain sudah menderetkan tanda meraka masing-masing baik secara vertikal, horizontal, atau diagonal.
