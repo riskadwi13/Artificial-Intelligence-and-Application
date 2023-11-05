@@ -13,7 +13,7 @@ Tuliskan semua Java Code diatas, kemudian pelajari code nya, dan ubahkan beberap
 Pada praktikum 6 ini memperlihatkan bagaimana membuat sebuah permainan tic tac toe.  Ketika pemain pertama menekan salah satu ubin, maka ubin tersebut akan diberikan tanda silang. Pemain kedua harus menghalangi pemain pertama untuk membuat tanda silang berjajaran baik secara vertikal, horizontal, atau diagonal. Permainan ini akan berakhir (goal state) ketika salah seorang pemain sudah menderetkan tanda meraka masing-masing baik secara vertikal, horizontal, atau diagonal.
 
 ##### Implementasi Permainan Tic Tac Toe Menggunakan Graphical User Interface (GUI)
-Permainan ini dibuatkan dengan menggunakan Java Swing yang terdiri dari 3 buah Java Class dan 3 buah pendeklarasian enumaration. Ke-enam file tersebut dituliskan secara terpisah namun disimpan pada folder yang sama (misalnya folder tic tac toe). Ke-enam file tersebut dituliskan nama secara berurutan seperti berikut:
+Permainan ini dibuatkan dengan menggunakan Java Swing yang terdiri dari 3 buah Java Class dan 3 buah pendeklarasian enumaration. Ke-enam file tersebut dituliskan secara terpisah namun disimpan pada folder yang sama yaitu folder TicTacToe seperti berikut ini. 
 
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/6%20file%20job%206.png)
 
