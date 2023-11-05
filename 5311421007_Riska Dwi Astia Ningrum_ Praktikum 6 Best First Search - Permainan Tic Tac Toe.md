@@ -111,7 +111,7 @@ Percobaan pemain kedua "NOUGHT" (O) = MENANG
 
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/menang%200.png)
 
-Percobaan Kedua Pemaian KALAH
+Percobaan KALAH untuk Kedua Pemain
 
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/kalah%20job%206.png)
 
