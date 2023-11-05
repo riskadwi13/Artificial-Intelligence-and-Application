@@ -40,7 +40,7 @@ NOUGHT: Menunjukkan bahwa sel diisi dengan simbol "NOUGHT" (O).
 3. State.Java
 ![alt text](https://github.com/riskadwi13/Artificial-Intelligence-and-Application/blob/main/3-6.png)
 
-- Dalam kode di atas, kita memiliki enumerasi State yang mendefinisikan berbagai keadaan permainan dalam permainan Tic Tac Toe:
+- Dalam kode di atas, enumerasi State yang mendefinisikan berbagai keadaan permainan dalam permainan Tic Tac Toe:
 PLAYING: Menunjukkan bahwa permainan sedang berlangsung, dan belum ada pemenang.
 DRAW: Menunjukkan bahwa permainan berakhir dengan seri (seri) karena tidak ada yang memenangkan.
 CROSS_WON: Menunjukkan bahwa pemain yang menggunakan simbol "CROSS" (X) telah memenangkan permainan.
